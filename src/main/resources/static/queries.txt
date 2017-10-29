@@ -1,0 +1,8 @@
+["AND",["EQ","user.address.city","San Francisco"],["GT","user.age",35]]
+["OR",["IN","event.category",["infant", "child", "teen"]],["LT","user.age",18]]
+["IN","event.category",["infant", "child", "teen"]]
+["LT","user.age",18]
+["GT","user.age",35]
+["EQ","user.address.city","Los Angles"]
+["AND",["EQ","user.address.city","Los Angles"],["GT","user.age",35],["EQ","user.address.address_line","XYZ Street"]]
+[]
